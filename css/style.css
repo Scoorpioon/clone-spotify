@@ -144,6 +144,41 @@ h3 {
     padding-left: 80px;
 }
 
+/* Rodapé */
+footer {
+    background-color: black;
+    padding: 50px 0 20px 0;
+    position: relative;
+}
+
+footer h4 {
+    color: rgb(145, 148, 150);
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer a {
+    color: white;
+    font-size: 0.8em;
+}
+
+footer a:hover {
+    color: rgb(155, 240, 225);
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style-type: none;
+
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
+
+}
+
 /* Media Queries */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -156,6 +191,11 @@ h3 {
     .btn-customizado {
         margin: 10px 15px;
         
+    }
+
+    .divisor {
+        display: none;
+
     }
 }
 
@@ -170,12 +210,27 @@ h3 {
         margin: 12px 0;
 
     }
+
+    footer .row {
+        border: 1px solid red;
+
+    }
+
+    .divisor {
+        display: none;
+
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     h1 {
         font-size: 4em;
+
+    }
+
+    footer .coluna {
+        margin-left: 50px;
 
     }
 }
